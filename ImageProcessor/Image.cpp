@@ -10,8 +10,6 @@
 #include "ImageProcessorException.hpp"
 
 
-static const int NUM_COMPONENTS = 4; // always RGBA for now
-
 Image::Image(int width, int height)
     : m_width(width)
     , m_height(height)
